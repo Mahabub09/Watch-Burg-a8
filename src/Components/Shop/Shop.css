@@ -10,3 +10,35 @@
     
 
 }
+.btn-container{
+    display: flex;
+    
+    align-items: center;
+}
+.btn-random{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn-clear{
+    width: 80px;
+    height: 40px;
+    margin-left: 5px;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn-random:hover{
+    background-color: gray;
+    color: white;
+
+}
+.btn-clear:hover{
+    background-color: gray;
+    color: white;
+
+}
